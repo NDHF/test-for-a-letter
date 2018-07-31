@@ -17,13 +17,12 @@ function testForLetter(character) {
     }
 };
 
-function yourFunctionNameHere(character) {
 // Wrap your code in this if-else statement. The idea is to pass your function's
 // argument through the testForLetter function. 
+    console.log("Checking for a letter in the alphabet...");
     if (testForLetter(character) === false) {
         console.error("Please enter a letter in the alphabet");
     } else {
         console.log("Input is a letter in the alphabet");
         //Place your code here!!!
     }
-}
